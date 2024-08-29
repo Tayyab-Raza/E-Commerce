@@ -4,7 +4,7 @@ import axios from "axios";
 import { toast } from "react-hot-toast";
 import { useNavigate } from "react-router-dom";
 import Navbar from "../Navbar/Navbar.Component";
-import loginbg from '../images/loginbg.jpg';
+
 
 const Login = () => {
   const navigate = useNavigate();

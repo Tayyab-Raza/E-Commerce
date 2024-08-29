@@ -6,7 +6,6 @@ import axios from "axios";
 import { toast } from "react-hot-toast";
 import { useNavigate } from "react-router-dom";
 import Navbar from "../Navbar/Navbar.Component";
-import signupbg from "../images/signupbg.jpg";
 
 const Signup = () => {
   const navigate = useNavigate();

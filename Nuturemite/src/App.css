@@ -84,3 +84,7 @@ body {
  .icon:hover{
   transform: translateY(-15px);
  }
+ .card2{
+  --tw-bg-opacity: 1;
+  background-color: #2b6f64;
+ }
