@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
-import { BiSearch, BiPlus } from "react-icons/bi";
+import { BiSearch } from "react-icons/bi";
+import { FaShoppingCart } from "react-icons/fa";
 
 const DashNav = () => {
   const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
@@ -21,7 +22,7 @@ const DashNav = () => {
           <div
             class="mr-4 block cursor-pointer py-1.5 font-sans text-base font-medium leading-relaxed text-inherit antialiased">
         
-            Food Recipe
+            Nuturemite
           </div>
         </div>
 
@@ -46,7 +47,7 @@ const DashNav = () => {
           </div>
           <div className="hover:text-gray-900 bg-gray-300 py-2 px-2 rounded-lg hover:underline font-sans text-base font-medium text-inherit ml-5">
           <button type="submit" id="btn" className="flex">
-            Add Recipe<BiPlus className="mt-1"/>
+            Cart<FaShoppingCart className="mt-1"/>
           </button>
           </div>
         </div>
@@ -78,7 +79,7 @@ const DashNav = () => {
           </div>
           <div className="hover:text-gray-900 bg-gray-300 py-2 px-2 rounded-lg hover:underline font-sans text-base font-sm text-inherit ml-2">
           <button type="submit" id="btn" className="flex">
-            Add Recipe<BiPlus className="mt-1"/>
+            Cart<FaShoppingCart className="mt-1"/>
           </button>
           </div>
             <button className="bg-red-600 hover:bg-red-700 text-white py-1 px-2 rounded-2xl ml-3">
