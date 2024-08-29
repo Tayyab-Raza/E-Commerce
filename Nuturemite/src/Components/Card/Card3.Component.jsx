@@ -132,7 +132,7 @@ const Card3 = () => {
   return (
      <div className="p-14">
       <div className="relative mx-auto max-w-7xl ">
-        <h1 className="text-3xl font-semibold pb-8 text-black text-center">RECENT PRODUCTS</h1>
+        <h1 className="text-3xl font-semibold pb-8 text-black text-center">FEATURED PRODUCTS</h1>
         <Slider {...settings}>
           {products.map((product) => (
             <div key={product.id} className="w-full p-4">

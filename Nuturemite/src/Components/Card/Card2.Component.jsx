@@ -128,6 +128,7 @@ const Card2 = () => {
   ];
 
   return (
+    
     <div className="card2 p-14">
       <div className="relative mx-auto max-w-7xl ">
         <h1 className="text-3xl font-semibold pb-8 text-white text-center">RECENT PRODUCTS</h1>
